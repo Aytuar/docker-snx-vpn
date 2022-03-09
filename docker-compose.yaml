@@ -1,0 +1,10 @@
+
+--cap-add=ALL 
+  volumes:  
+    /lib/modules:/lib/modules
+    /dev:/dev
+  enviroments:
+    SNX_SERVER=<server>
+    SNX_USER=<user>
+    SNX_PASSWORD=password
+    -d -ti 
